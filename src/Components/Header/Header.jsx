@@ -1,11 +1,13 @@
-import Bannner from "../Banner/Bannner";
+import BreakingNews from "../BreakingNews/BreakingNews";
+import HeaderTop from "../HeaderTop/HeaderTop";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
     <header>
+      <HeaderTop />
+      <BreakingNews />
       <Navbar />
-      <Bannner />
     </header>
   );
 };
