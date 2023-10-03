@@ -9,7 +9,7 @@ const HeaderTop = () => {
         Journalism Without Fear or Favour
       </h2>
       <h2 className="text-xl font-medium text-gray-600">
-        {moment().format("dddd, MMMM d, YYYY")}
+        {moment().format("dddd, MMMM DD, YYYY")}
       </h2></div>
     </div>
   );

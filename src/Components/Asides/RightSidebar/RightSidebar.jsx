@@ -30,13 +30,13 @@ const RightSidebar = () => {
         <h3 className="text-lg font-bold mb-4">Find us on</h3>
         <div className="border rounded-md">
           <Link to="/" className="flex gap-3 text-blue-800 border-b p-3">
-            <FaFacebookF className="text-xl" /> Facebook
+            <FaFacebookF className="text-4xl bg-gray-300 p-2 rounded-full" /> Facebook
           </Link>
           <Link to="/" className="flex gap-3 text-blue-600 border-b p-3 ">
-            <FaTwitter className="text-xl" /> Twitter
+            <FaTwitter className="text-4xl bg-gray-300 p-2 rounded-full" /> Twitter
           </Link>
           <Link to="/" className="flex gap-3 text-amber-600 border-b p-3 ">
-            <FaInstagram className="text-xl" /> Instagram
+            <FaInstagram className="text-4xl bg-gray-300 p-2 rounded-full" /> Instagram
           </Link>
         </div>
       </div>
@@ -49,9 +49,10 @@ const RightSidebar = () => {
       <img src={qzone3} alt="" />
       </div>
         {/* Advertisement Information */}
-        <div className="py-10 px-5 bg-blend-soft-light bg-no-repeat bg-black bg-cover space-y-5" style={{background:  `url(${adbg})`}}>
-            <h2 className="text-4xl text-white font-bold text-center">Create an Amazing Newspaper</h2>
-            <p className="text-lg font-normal text-white text-center">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+        <div className="py-10 px-5 bg-blend-soft-light bg-no-repeat text-center bg-black bg-cover space-y-5" style={{background:  `url(${adbg})`}}>
+            <h2 className="text-4xl text-white font-bold">Create an Amazing Newspaper</h2>
+            <p className="text-lg font-normal text-white">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+            <button className="btn btn-secondary rounded-none">Learn More</button>
         </div>
     </div>
   );
