@@ -3,7 +3,7 @@ import { FcAdvertising } from "react-icons/fc";
 import { Link } from "react-router-dom";
 const BreakingNews = () => {
   return (
-    <div className="flex gap-3 my-10 items-center justify-center bg-[#F3F3F3] py-2 px-4">
+    <div className="flex gap-3 my-4 items-center justify-center bg-[#F3F3F3] py-2 px-4">
       <p className="py-2 text-xl font-medium px-5 text-white bg-[#D72050] rounded-none">
         Latest
       </p>
