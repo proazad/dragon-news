@@ -1,16 +1,22 @@
-import { NavLink } from "react-router-dom";
 import { FcBusinessman } from "react-icons/fc";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const navlinks = (
     <>
       <li>
-        <NavLink to="/" className="text-lg font-normal">Home</NavLink>
+        <Link to="/" className="text-lg font-normal">
+          Home
+        </Link>
       </li>
       <li>
-        <NavLink to="/about" className="text-lg font-normal">About</NavLink>
+        <Link to="/about" className="text-lg font-normal">
+          About
+        </Link>
       </li>
       <li>
-        <NavLink to="/carrer" className="text-lg font-normal">Carrer</NavLink>
+        <Link to="/carrer" className="text-lg font-normal">
+          Carrer
+        </Link>
       </li>
     </>
   );
@@ -51,7 +57,9 @@ const Navbar = () => {
             <FcBusinessman className="text-4xl" />
           </div>
         </label>
-        <a className="btn">Login</a>
+        <Link to="/login" className="btn">
+          Login
+        </Link>
       </div>
     </div>
   );
